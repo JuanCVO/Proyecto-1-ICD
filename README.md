@@ -2,7 +2,7 @@
 
 ## 👥 Integrantes
 * Juan Camilo Velez Ospina 2510206-3743
-* [Estudiante 2]
+* Andrés Felipe Salcedo Buitrago 2359304-3743
 * [Estudiante 3]
 * [Estudiante 4]
 
