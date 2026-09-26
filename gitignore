@@ -1,0 +1,36 @@
+# Credenciales y variables de entorno — NUNCA subir el .env real
+.env
+.env.local
+.env.*.local
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Datos crudos (los CSV pesan mucho y pueden traer datos sensibles de la GEIH)
+data/
+*.CSV
+*.csv
+
+# Salidas generadas / temporales
+entrega/*.pdf.tmp
+*.log
+
+# Sistema operativo / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Google Colab
+.config/
+sample_data/
