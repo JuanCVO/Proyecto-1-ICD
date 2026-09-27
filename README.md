@@ -25,20 +25,22 @@ DATABASE_URL=postgresql://usuario:contraseña@localhost:5432/nombre_base_datos
 ```
 
 ### 3. Entorno Virtual e Instalación
-Ejecute en su terminal desde la raíz del proyecto para aislar las dependencias:
+Ejecute en su terminal desde la raíz del proyecto para aislar las dependencias sin dejar un entorno en el repositorio:
 
 ```bash
-# Crear y activar entorno virtual
-python -m venv env
+# Crear y activar entorno virtual oculto
+python -m venv .venv
 
 # Activar en Windows:
-.\env\Scripts\activate
+.\.venv\Scripts\activate
 # Activar en Linux/macOS:
-source env/bin/activate
+source .venv/bin/activate
 
 # Instalar librerías
 pip install -r requirements.txt
 ```
+
+> No se debe versionar ni dejar el archivo `.env` real dentro de la raíz del proyecto. Manténgalo local y fuera del repositorio.
 
 ### 4. Ejecución del Pipeline
 Abra su editor de código, **seleccione el kernel de Jupyter apuntando al entorno virtual (`env`)** recién creado y ejecute en orden mediante *Restart & Run All*:
