@@ -3,7 +3,7 @@
 ## 👥 Integrantes
 * Juan Camilo Velez Ospina 2510206-3743
 * Andrés Felipe Salcedo Buitrago 2359304-3743
-* Geraldine Florez Rico 2269476-2743
+* Geraldine Florez Rico 2269476-3743
 * Daniela Orrego Alfonso 2510208-3743
 
 ---
