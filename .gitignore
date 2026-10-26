@@ -25,6 +25,16 @@ data/
 entrega/*.pdf.tmp
 *.log
 
+# Salidas que generan los notebooks de la entrega 2 (se regeneran al ejecutarlos en orden)
+geih_2026_*.png
+geih_2026_*.csv
+*.parquet
+
+# Imágenes sueltas en general (el diagrama del Proyecto 1 ya está versionado y no se ve afectado)
+*.png
+*.jpg
+*.jpeg
+
 # Sistema operativo / editor
 .DS_Store
 Thumbs.db
